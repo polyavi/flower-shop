@@ -1,0 +1,19 @@
+<div id="{{this.id}}" class="items">
+        <div class="item-container">
+            <div>
+                <ul class="item-properties">
+                  <li><h3>{{this.name}}</h3></li>
+                    <li>${{this.price}}</li>
+                    <li>{{this.author}}</li>
+                </ul>
+              <img src="{{this.img}}" width="150">
+                <ul class="item-properties">
+
+                    <li><span>Category:</span> {{this.category}}</li>
+                    <li><span>Number of pages:</span> ${{this.pages}}</li>
+                    <li><span>Theme:</span> {{this.theme}}</li>
+                    <li>{{#if this.present}} There is present attached.{{else}} There is no present attached.{{/if}}</li>
+                </ul>
+            </div>
+        </div>
+    </div>

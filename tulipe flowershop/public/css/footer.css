@@ -1,0 +1,19 @@
+footer,
+.footer-content{
+  display: flex;
+  flex-direction: row;
+}
+.footer-colomns{
+  display: flex;
+  flex-direction: row;
+}
+footer{
+  justify-content: space-between;
+
+}
+.sotial{
+    padding: 0;
+}
+#foot{
+  margin: 10px 40px;
+}

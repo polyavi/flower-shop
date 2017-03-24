@@ -1,0 +1,51 @@
+<div class="wrapper">
+    <input type="search" id="search" placeholder="Search Products...">
+    <div class="categories">
+        <h3>CATEGORIES</h3>
+        <div class="ctgr">
+            <a href="#/products/bouquets"><h4 >Bouquets <i></i></h4></a>
+            <div class="unctgr">
+                <a href="#/products/roses"><h5>ROSES</h5></a>
+                <a href="#/products/tulipes"><h5>TULIPS</h5></a>
+                <a href="#/products/orchids"><h5>ORCHIDS</h5></a>
+                <a href="#/products/lillies"><h5>LILLIES</h5></a>
+                <a href="#/products/gerbera"><h5>GERBERA</h5></a>
+                <a href="#/products/chrisanthemum"><h5>CHRISANTEMUM</h5></a>
+            </div>
+            <a href="#/products/plants"><h4>Plants <i></i></h4></a>
+            <a href="#/products/boxes"><h4>Boxes <i></i></h4></a>
+            <a href="#/products/chocolates"><h4>Chocolates <i></i></h4></a>
+        </div>
+    </div>
+</div>
+<div class="wrapper">
+    <div class="filter">
+        <span>Showing 1 - 12 from 25</span>
+        <div class="styled-select slate">
+            <select class="sort" name="">
+              <option value="hot">DEFAULT SORTING</option>
+        <option value="hot">BEST SELLERS</option>
+        <option value="new">NEWEST</option>
+        <option value="price-low">PRICE <i></i></option>
+        <option value="price-high">PRICE <i></i></option>
+      </select>
+        </div>
+    </div>
+    <div class="products-wrapper">
+      {{#each this}}
+      <div class="product-short">
+          <div class="tags">
+              <a class="hot" href="#">HOT</a>
+              <a class="new" href="#">NEW</a>
+              <a class="right" href="#"><i></i></a>
+          </div>
+          <img src="{{this.imgs.[0]}}" alt="">
+          <div class="info">
+              <a href="#/products/{{this.category}}/{{this.id}}"><h4>{{this.name}}</h4></a>
+              <span class="price">${{this.price}}</span>
+          </div>
+      </div>
+      {{/each}}
+
+    </div>
+</div>

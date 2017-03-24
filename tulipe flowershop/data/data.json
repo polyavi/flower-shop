@@ -1,0 +1,444 @@
+{
+  "products": {
+    "bouquets": [
+      {
+        "id": 1,
+        "name": "Orchid beauty",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/orchid1.jpg",
+          "images/orchid2.jpg",
+          "images/orchid3.jpg",
+          "images/orchid4.jpg"
+        ],
+        "price": 30,
+        "category": "orchids",
+        "rating": 4,
+        "summary": "Elegant bouquet with pink orchids.",
+        "orders": 4
+      },
+      {
+        "id": 2,
+        "name": "Funny orchid",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/orchid5.jpg",
+          "images/orchid6.jpg",
+          "images/orchid7.jpg"
+        ],
+        "price": 12,
+        "category": "orchids",
+        "rating": 3,
+        "summary": "Colorful bouquet with 3 yellow orchids. Decorated with minions.",
+        "orders": 0
+      },
+      {
+        "id": 3,
+        "name": "Girly orchid",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/orchid8.jpg",
+          "images/orchid9.jpg"
+        ],
+        "price": 12,
+        "category": "orchids",
+        "rating": 4,
+        "summary": "Elegant bouquet with pink orchids.",
+        "orders": 1
+      },
+      {
+        "id": 4,
+        "name": "Blue margrite",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/chrisanthemum1.jpg",
+          "images/chrisanthemum2.jpg",
+          "images/chrisanthemum3.jpg"
+        ],
+        "price": 18,
+        "category": "chrisanthemum",
+        "rating": 4,
+        "summary": "Five white chrisanthemums decorated with blue italian paper and natural elements.",
+        "orders": 0
+      },
+      {
+        "id": 5,
+        "name": "Delicate chrisanthemum",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/chrisanthemum4.jpg"
+        ],
+        "price": 20,
+        "category": "chrisanthemum",
+        "rating": 3,
+        "summary": "Colorful chrisanthemums wraped with fabric.",
+        "orders": 4
+      },
+      {
+        "id": 6,
+        "name": "Colorful summer",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/gerbera1.jpg",
+          "images/gerbera2.jpg",
+          "images/gerbera3.jpg"
+        ],
+        "price": 12,
+        "category": "gerbera",
+        "rating": 2,
+        "summary": "Oringe gerbera decorated with wheatear ",
+        "orders": 0
+      },
+      {
+        "id": 7,
+        "name": "Summer lilly",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/lillies1.jpg",
+          "images/lillies2.jpg",
+          "images/lillies3.jpg"
+        ],
+        "price": 10,
+        "category": "lillies",
+        "rating": 3,
+        "summary": "White oriental lilly decorated with orange and yellow.",
+        "orders": 1
+      },
+      {
+        "id": 8,
+        "name": "vintage paper",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/lillies4.jpg",
+          "images/lillies5.jpg"
+        ],
+        "price": 30,
+        "category": "lillies",
+        "rating": 4,
+        "summary": "White oriental lilly decorated with vintage paper.",
+        "orders": 2
+      },
+      {
+        "id": 9,
+        "name": "Blue Dots",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/lillies6.jpg",
+          "images/lillies7.jpg"
+        ],
+        "price": 10,
+        "category": "lillies",
+        "rating": 3,
+        "summary": "Yellow lilly decorated with blue paper.",
+        "orders": 7
+      },
+      {
+        "id": 10,
+        "name": "Delicate beauty",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/mixed1.jpg",
+          "images/mixed2.jpg",
+          "images/mixed3.jpg"
+        ],
+        "price": 35,
+        "category": "mixed",
+        "rating": 5,
+        "summary": "Delicate bouquet with pink orchid and gerbera, white chrisanthemum and roses.",
+        "orders": 6
+      },
+      {
+        "id": 11,
+        "name": "Colorful spring",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/mixed4.jpg",
+          "images/mixed5.jpg",
+          "images/mixed6.jpg"
+        ],
+        "price": 38,
+        "category": "mixed",
+        "rating": 3,
+        "summary": "Delicate bouquet with lillies, roses, lisianthus and alstroemeria.",
+        "orders": 3
+      },
+      {
+        "id": 12,
+        "name": "Exotic feeling",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/mixed7.jpg",
+          "images/mixed8.jpg",
+          "images/mixed9.jpg"
+        ],
+        "price": 20,
+        "category": "mixed",
+        "rating": 4,
+        "summary": "Exotic bouquet with lillies, orchids and strelitzia.",
+        "orders": 7
+      },
+      {
+        "id": 13,
+        "name": "Love in the air",
+        "createdAt": "2017-01-31T11:31:13.840Z",
+        "imgs": [
+          "images/roses1.jpg",
+          "images/roses2.jpg",
+          "images/roses3.jpg"
+        ],
+        "price": 32,
+        "category": "roses",
+        "rating": 4,
+        "summary": "Spectacular bouquet with 9 red roses.",
+        "orders": 3
+      },
+      {
+        "id": 14,
+        "name": "Colossal romance",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/roses4.jpg",
+          "images/roses5.jpg",
+          "images/roses6.jpg",
+          "images/roses7.jpg"
+        ],
+        "price": 100,
+        "category": "roses",
+        "rating": 5,
+        "summary": "Colossal bouquet with 101 red roses.",
+        "orders": 6
+      },
+      {
+        "id": 15,
+        "name": "Exquisite rose",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/roses8.jpg",
+          "images/roses9.jpg"
+        ],
+        "price": 40,
+        "category": "roses",
+        "rating": 5,
+        "summary": "Exquisite bouquet with coral roses in gold wrapping and decorative perls.",
+        "orders": 4
+      },
+      {
+        "id": 16,
+        "name": "Fastidious Tulipe ",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/spring-flowers1.jpg",
+          "images/spring-flowers2.jpg"
+        ],
+        "price": 18,
+        "category": "tulipes",
+        "rating": 4,
+        "summary": "Yellow tulipes wrapped in turqoise fabric.",
+        "orders": 1
+      },
+      {
+        "id": 17,
+        "name": "Spring garden",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/spring-flowers3.jpg",
+          "images/spring-flowers4.jpg"
+        ],
+        "price": 28,
+        "category": "tulipes",
+        "rating": 5,
+        "summary": "Colorful tulipes wrapped in simple fabric.",
+        "orders": 3
+      },
+      {
+        "id": 18,
+        "name": "Vintage sunflowers",
+        "createdAt": "2017-01-31T11:31:13.840Z",
+        "imgs": [
+          "images/sunflowers1.jpg",
+          "images/sunflowers2.jpg",
+          "images/sunflowers3.jpg"
+        ],
+        "price": 28,
+        "category": "suflowers",
+        "rating": 4,
+        "summary": "Lagre sunflowers wrapped in vintage paper.",
+        "orders": 8
+      }
+    ],
+    "boxes": [
+      {
+        "id": 19,
+        "name": "Romance in a box",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/boxes1.jpg",
+          "images/boxes2.jpg"
+        ],
+        "price": 35,
+        "category": "boxes",
+        "rating": 4,
+        "summary": "Heart shaped box with red roses.",
+        "orders": 0
+      },
+      {
+        "id": 20,
+        "name": "Red roses box",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/boxes3.jpg",
+          "images/boxes4.jpg"
+        ],
+        "price": 28,
+        "category": "boxes",
+        "rating": 4,
+        "summary": "Delicate box filled with red roses and white chrisanthemum.",
+        "orders": 4
+      },
+      {
+        "id": 21,
+        "name": "Anniversery box",
+        "createdAt": "2017-02-16T11:31:13.840Z",
+        "imgs": [
+          "images/boxes5.jpg",
+          "images/boxes6.jpg",
+          "images/boxes7.jpg"
+        ],
+        "price": 15,
+        "category": "boxes",
+        "rating": 5,
+        "summary": "Vintage box filled with chrisanthemum and tulipes.",
+        "orders": 7
+      }
+    ],
+    "plants": [
+      {
+        "id": 22,
+        "name": "Aphelandra",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/plants1.jpg",
+          "images/plants2.jpg",
+          "images/plants3.jpg"
+        ],
+        "price": 10,
+        "category": "plants",
+        "rating": 3,
+        "summary": "Aphelandra decrated in gift bag.",
+        "orders": 4
+      },
+      {
+        "id": 23,
+        "name": "Gerbera",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/plants4.jpg",
+          "images/plants6.jpg",
+          "images/plants5.jpg"
+        ],
+        "price": 8,
+        "category": "plants",
+        "rating": 3,
+        "summary": "Gerbera in ceramic pot.",
+        "orders": 5
+      },
+      {
+        "id": 24,
+        "name": "Guzmania",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/plants8.jpg",
+          "images/plants9.jpg",
+          "images/plants7.jpg"
+        ],
+        "price": 19,
+        "category": "plants",
+        "rating": 5,
+        "summary": "Guzmania aranged in fabric pot.",
+        "orders": 6
+      },
+      {
+        "id": 25,
+        "name": "Rose",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/plants10.jpg",
+          "images/plants11.jpg",
+          "images/plants12.jpg"
+        ],
+        "price": 6,
+        "category": "plants",
+        "rating": 5,
+        "summary": "Rose aranged in gift bag.",
+        "orders": 2
+      },
+      {
+        "id": 26,
+        "name": "Stephanotis floribunda",
+        "createdAt": "2017-01-31T11:31:13.840Z",
+        "imgs": [
+          "/images/plants13.jpg",
+          "images/plants14.jpg",
+          "images/plants15.jpg"
+        ],
+        "price": 17,
+        "category": "plants",
+        "rating": 5,
+        "summary": "Stephanotis floribunda aranged in a gift bag.",
+        "orders": 3
+      }
+    ],
+    "chocolates": [
+      {
+        "id": 27,
+        "name": "Cinnamon sweetnes",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/chocolates1.jpg",
+          "images/chocolates2.jpg"
+        ],
+        "price": 20,
+        "category": "chocolates",
+        "rating": 5,
+        "summary": "Bouquet with chocolates in gold and decorated with cinnamon sticks.",
+        "orders": 4
+      },
+      {
+        "id": 28,
+        "name": "tasty pink",
+        "createdAt": "2016-12-31T11:31:13.840Z",
+        "imgs": [
+          "images/chocolates3.jpg",
+          "images/chocolates4.jpg"
+        ],
+        "price": 13,
+        "category": "chocolates",
+        "rating": 3,
+        "summary": "Bouquet with chocolates in pink and purple.",
+        "orders": 0
+      },
+      {
+        "id": 29,
+        "name": "Romantic sweetnes",
+        "createdAt": "2017-02-01T11:31:13.840Z",
+        "imgs": [
+          "images/chocolates11.jpg",
+          "images/chocolates12.jpg"
+        ],
+        "price": 35,
+        "category": "chocolates",
+        "rating": 5,
+        "summary": "Vintage wooden box filled with chocolates and bottle of red wine.",
+        "orders": 7
+      }
+    ]
+  },
+  "users": [
+    {
+      "username": "polia",
+      "passHash": "123456",
+      "usernameToLower": "polia",
+      "id": 1
+    }
+  ]
+}

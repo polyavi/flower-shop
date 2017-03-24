@@ -1,0 +1,24 @@
+@font-face {
+    font-family: BERNHC;
+    src: url(BOD_CR.ttf);
+}
+@font-face {
+    font-family: ITCEDSCR;
+    src: url(ITCEDSCR.ttf);
+}
+body{
+  margin: 0;
+  color: #696969;
+  font-family: BERNHC;
+}
+ul{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+  color: #696969;
+}
+h3{
+  font-size: 2em;
+  font-weight: normal;
+}
