@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/polyavi/"
+    "url": "git+https://github.com/polyavi/flower-shop.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/polyavi"
+    "url": "https://github.com/polyavi/flower-shop/blob/master/tulipe%20flowershop/public/index.html"
   },
   "homepage": "https://github.com/polyavi",
   "devDependencies": {
