@@ -1,0 +1,27 @@
+<div class="sorting">
+    <span>Showing {{this.length}} products</span>
+    <div class="styled-select slate">
+        <select class="sort" type="sort" id="sort">
+          <option value="hot">BEST SELLERS</option>
+          <option value="new">NEWEST</option>
+          <option value="price">PRICE</option>
+        </select>
+    </div>
+</div>
+<div class="products-wrapper">
+    {{#each this}}
+        <div class="product-short">
+            <div class="tags">
+                <a class="hot" href="#">HOT</a>
+                <a class="new" href="#">NEW</a>
+                <a class="right" href="#"><i></i></a>
+            </div>
+            <img src="{{this.imgs.[0]}}" alt="">
+            <div class="info">
+                <a href="#/products/{{this.category}}/{{this.id}}"><h4 class="product-name">{{this.name}}</h4></a>
+                <span class="price">${{this.price}}</span>
+            </div>
+        </div>
+    {{/each}}
+
+</div>

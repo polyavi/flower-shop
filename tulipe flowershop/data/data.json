@@ -260,7 +260,7 @@
           "images/sunflowers3.jpg"
         ],
         "price": 28,
-        "category": "suflowers",
+        "category": "sunflowers",
         "rating": 4,
         "summary": "Lagre sunflowers wrapped in vintage paper.",
         "orders": 8
@@ -439,6 +439,45 @@
       "passHash": "123456",
       "usernameToLower": "polia",
       "id": 1
+    },
+    {
+      "username": "dgdfg",
+      "passHash": "1234",
+      "usernameToLower": "dgdfg",
+      "id": 1
+    }
+  ],
+  "cart": [
+    {
+      "id": 9,
+      "name": "Orchid beauty",
+      "createdAt": "2016-12-31T11:31:13.840Z",
+      "imgs": [
+        "images/orchid1.jpg",
+        "images/orchid2.jpg",
+        "images/orchid3.jpg",
+        "images/orchid4.jpg"
+      ],
+      "price": 30,
+      "category": "orchids",
+      "rating": 4,
+      "summary": "Elegant bouquet with pink orchids.",
+      "orders": 4
+    },
+    {
+      "id": 10,
+      "name": "Aphelandra",
+      "createdAt": "2016-12-31T11:31:13.840Z",
+      "imgs": [
+        "images/plants1.jpg",
+        "images/plants2.jpg",
+        "images/plants3.jpg"
+      ],
+      "price": 10,
+      "category": "plants",
+      "rating": 3,
+      "summary": "Aphelandra decrated in gift bag.",
+      "orders": 4
     }
   ]
 }

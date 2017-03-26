@@ -28,13 +28,11 @@ let requester = {
         });
         return promise;
     },
-    postJSON: (url, body, options = {}) => {
+    postJSON: (url, body) => {
         let promise = new Promise((resolve, reject) => {
-            var headers = options.headers || {};
 
             $.ajax({
                 url,
-                headers,
                 method: "POST",
                 contentType: "application/json",
                 data: JSON.stringify(body),

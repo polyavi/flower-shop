@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/highlights.css">
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
 </head>
 
 <body>
@@ -26,7 +27,7 @@
                 <img src="../images/tulipe-logo.png" alt="logo">
             </div>
             <ul class="menu">
-                <li>
+                <li class="active">
                     <a href="#/home">HOME</a>
                 </li>
                 <li>
@@ -38,35 +39,10 @@
                 <li class="hidden-when-not-logged-in" style="display:none">
                     <a class="btn-nav-logout" href="#/logout">Logout</a>
                 </li>
-                <li><a href="#"><i></i></a></li>
+                <li><a href="#/shoppingcart" id="cart" class="hidden-when-not-logged-in"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
-        <div class="highlight-container">
-            <div class="highlight" id="first">
-                <div class="content">
-                    <a href="#"><h3>BOUQUETS</h3></a>
-                    <span>unique bouquets with fresh flowers</span>
-                </div>
-            </div>
-            <div class="highlight" id="second">
-                <div class="content">
-                    <a href="#"><h3>PLANTS</h3></a>
-                    <span>beautifully aranged plants</span>
-                </div>
-            </div>
-            <div class="highlight" id="third">
-                <div class="content">
-                    <a href="#"><h3>VALENTINE'S DAY</h3></a>
-                    <span>lots of ideas for romantic gifts</span>
-                </div>
-            </div>
-            <div class="highlight" id="fourth">
-                <div class="content">
-                    <a href="#"><h3>SPECIAL OFFERS</h3></a>
-                    <span>get 25% off only this week</span>
-                </div>
-            </div>
-        </div>
+
     </header>
 
     <div id="main" class="container-fluid">

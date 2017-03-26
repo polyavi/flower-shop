@@ -1,19 +1,22 @@
-#main{
+.section{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;;
   margin: 20px 50px;
 }
 .wrapper{
   padding: 10px 30px;
 }
-.filter{
+#store{
+  width: 100%;
+}
+.sorting{
   display: flex;
     justify-content: space-between;
     padding: 0 5%;
     margin-bottom: 40px;
 }
-.filter span{
+.sorting span{
   font-size: 24px;
   font-family: BERNHC;
   font-style: italic;

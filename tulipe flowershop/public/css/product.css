@@ -91,3 +91,6 @@
     left: 35%;
     width: 65%;
 }
+.filter{
+    display: none !important;
+}

@@ -22,14 +22,14 @@ nav{
   height: 100px;
   box-shadow: 0 5px 20px #888888;
 }
-ul.menu li a:hover, ul.menu li:active{
-font-size: 3em;
+ul.menu li a:hover, ul.menu .active{
+font-size: 1.5em;
 padding: 0 20px;
 }
 ul.menu li:hover a{
   color: #a0608b;
 }
-ul.menu li:active a
+ul.menu .active a
 {
   color: #5b9ca3;
 }
