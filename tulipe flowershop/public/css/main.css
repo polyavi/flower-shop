@@ -2,23 +2,110 @@
     font-family: BERNHC;
     src: url(BOD_CR.ttf);
 }
+
 @font-face {
     font-family: ITCEDSCR;
     src: url(ITCEDSCR.ttf);
 }
-body{
-  margin: 0;
-  color: #696969;
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.border {
+    border: 1px solid #c9c9c9;
+}
+
+.margin-10-20 {
+    margin: 10px 20px;
+}
+
+p, .em1-5 {
+    font-size: 1.5em;
+}
+
+h4, h5 {
+    font-weight: normal;
+    font-size: 1.5em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.right {
+    float: right;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.color-285564 {
+    background-color: #285564;
+}
+
+.color-5b9ca3 {
+    background-color: #5b9ca3;
+}
+
+.color-edb4b6 {
+    background-color: #edb4b6;
+}
+
+.color-a0608b {
+    background-color: #a0608b;
+}
+
+.text-285564 {
+    color: #285564;
+}
+
+.text-5b9ca3 {
+    color: #5b9ca3;
+}
+
+.text-edb4b6 {
+    color: #EDB4B6;
+}
+.text-ffffff {
+    color: #ffffff;
+}
+
+.text-696969, a, h4, h5 {
+    color: #696969;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.space-btwn {
+    justify-content: space-between;
+}
+
+.inline, .logged-in .hidden-when-not-logged-in{
+  display: inline-block;
+}
+.marg-10{
+  margin: 10px;
+}
+.font-bernh{
   font-family: BERNHC;
 }
-ul{
-  list-style-type: none;
-}
-a{
-  text-decoration: none;
-  color: #696969;
-}
-h3{
-  font-size: 2em;
-  font-weight: normal;
+.upperc{
+  text-transform: uppercase;
 }

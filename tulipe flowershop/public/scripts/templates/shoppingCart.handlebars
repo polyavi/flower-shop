@@ -1,70 +1,65 @@
 <section>
-    <h3 >Shopping Cart</h3>
+    <h3 class="no-margin">Shopping Cart</h3>
+    <hr class="cart-hr no-margin">
 </section>
 <section>
     <div class="container">
-        <div >
-            <div >
-                <table >
-                    <thead>
-                        <tr>
-                            <th>&nbsp;</th>
-                            <th>Product</th>
-                            <th>Name</th>
-                            <th>Price</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {{#if this.length}}
-                        {{#each this}}
-                        <tr data-id={{id}}>
+        {{#if this.length}}
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Product</th>
+                        <th>Name</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each this}}
+                        <tr class="em1-5" data-id= {{this.id}}>
                             <th scope="row">
-                                <a href="#/shoppingCart" class="btn-remove-item" data-toggle="tooltip" data-placement="top" title="" data-original-title="Remove from cart">
-                                    fgfg
+                                <a href="#/shoppingCart" class="btn-remove-item">
+                                    <i class="fa fa-times" aria-hidden="true"></i>
                                 </a>
                             </th>
-                            <td>
-                                <a href="#">
-                                    <img alt="Product"  src="{{imageURL}}" />
-                                </a>
+                            <td class="text-center">
+                                <img class="border margin-10-20" alt="Product" src="{{this.imgs.[0]}}" />
                             </td>
-                            <td>
-                                <span>{{name}}</span>
+                            <td class="text-center">
+                                <span>{{this.name}}</span>
                             </td>
-                            <td>
-                                <span>${{price}}</span>
+                            <td class="text-center">
+                                <span>${{this.price}}</span>
                             </td>
                         </tr>
-                        {{/each}}
-                        {{else}}
-                            <td>
-                                <span>No items added to the cart!</span>
-                            </td>
-                        {{/if}}
-                    </tbody>
-                </table>
-            </div>
+                    {{/each}}
+        {{else}}
+            <td>
+                <p>No items added to the cart!</p>
+            </td>
 
-            <!--totals-->
-            <div >
-                <div >
-                    <h5 class="uppercase">Your Order Total</h5>
-                    <table >
-                        <tbody>
-                            <tr>
-                                <th scope="row">Order Total</th>
-                                <td>
-                                    <strong id="totalPrice"></strong>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                </tbody>
+            </table>
+        {{/if}}
+    </div>
+    <hr class="total-cart-hr">
+    <!--totals-->
+    <div>
+        <table class="em1-5 right">
+            <tbody>
 
-                    <form class="#btn-add-details">
-                        <a href="#/addDeliveryDetails" >Proceed To Checkout</a>
-                    </form>
-                </div>
-            </div>
-        </div>
+                <tr>
+                    <th scope="row">Order Total:</th>
+                    <td>
+                        <strong id="totalPrice"></strong>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <form class="#btn-add-details">
+
+            <a class="btn color-5b9ca3 text-ffffff font-bernh" href="#/addDeliveryDetails">Proceed To Checkout</a>
+        </form>
     </div>
 </section>

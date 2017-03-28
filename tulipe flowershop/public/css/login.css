@@ -1,0 +1,33 @@
+.form {
+    margin: 50px 40%;
+    flex-direction: column;
+}
+
+.form input {
+    margin-bottom: 20px;
+}
+
+.btn {
+    border: 2px solid #5b9ca3;
+    border-radius: 10px;
+    padding: 5px 15px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    -o-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #5b9ca3;
+    background-color: white;
+}
+
+.form input, .btn {
+    font-size:1.2em;
+}
+
+.btn-holder {
+    justify-content: center;
+}

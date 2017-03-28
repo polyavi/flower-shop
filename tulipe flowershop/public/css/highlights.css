@@ -1,45 +1,29 @@
 .highlight-container{
-  display: flex;
   justify-content: space-around;
   width: 90%;
   margin: 30px 5%;
 }
 .highlight{
-  display: inline-block;
-  text-align: center;
   padding: 10px;
   width: 25%;
-  margin: 10px;
-}
-.highlight h3{
-    margin: 10px;
-    color: #ffffff;
 }
 .highlight span{
-    margin: 10px;
-    color: #ffffff;
     font-family: ITCEDSCR;
     font-size: 2em;
-}
-.highlight h3:hover{
-  font-size: 2.5em;
-  margin: 0;
-}
-
-#first{
-  background-color: #285564;
-}
-#second{
-  background-color: #5b9ca3;
-}
-#third{
-  background-color: #edb4b6;
-}
-#fourth{
-  background-color: #a0608b;
 }
 .content{
   border: 1px solid #ffffff;
   padding: 10px;
-  height: 10em;
+  height: 12em;
+}
+.highlight:hover{
+  -webkit-transform: scale(1.10);
+  /* Safari and Chrome */
+  -moz-transform: scale(1.10);
+  /* Firefox */
+  -ms-transform: scale(1.10);
+  /* IE 9 */
+  -o-transform: scale(1.10);
+  /* Opera */
+  transform: scale(1.10);
 }

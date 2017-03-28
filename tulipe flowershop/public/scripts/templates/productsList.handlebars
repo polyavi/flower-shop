@@ -1,24 +1,23 @@
-<div class="sorting">
-    <span>Showing {{this.length}} products</span>
+<div class="sorting flex space-btwn">
+    <span class="em1-5 font-bernh">Showing {{this.length}} products</span>
     <div class="styled-select slate">
-        <select class="sort" type="sort" id="sort">
+        <select  type="sort" id="sort">
           <option value="hot">BEST SELLERS</option>
           <option value="new">NEWEST</option>
           <option value="price">PRICE</option>
         </select>
     </div>
 </div>
-<div class="products-wrapper">
+<div class="products-wrapper flex row">
     {{#each this}}
-        <div class="product-short">
+        <div class="product-short border flex">
             <div class="tags">
-                <a class="hot" href="#">HOT</a>
-                <a class="new" href="#">NEW</a>
-                <a class="right" href="#"><i></i></a>
+              <span class="hot color-edb4b6">HOT</span>
+              <span class="new color-285564">NEW</span>
             </div>
-            <img src="{{this.imgs.[0]}}" alt="">
-            <div class="info">
-                <a href="#/products/{{this.category}}/{{this.id}}"><h4 class="product-name">{{this.name}}</h4></a>
+            <img class="margin-10-20" src="{{this.imgs.[0]}}" alt="">
+            <div class="info em1-5 text-center">
+                <a href="#/products/{{this.category}}/{{this.id}}"><h4 class="product-name no-margin upperc">{{this.name}}</h4></a>
                 <span class="price">${{this.price}}</span>
             </div>
         </div>

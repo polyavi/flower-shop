@@ -60,6 +60,7 @@ let controllers = (function() {
                 $('.highlight-container').html(html);
             });
     }
+
     function home() {
         var items;
         dataService.isLoggedIn()
@@ -74,8 +75,8 @@ let controllers = (function() {
             });
         dataService.products()
             .then((productsResponse) => {
-                items = productsResponse;
-                return templates.get('home')
+                items = productsResponse.result;
+                return templates.get('home');
             })
             .then((templateHtml) => {
                 let templateFunc = handlebars.compile(templateHtml);
@@ -84,7 +85,6 @@ let controllers = (function() {
             });
         highlights();
     }
-
 
     function store() {
         var products = [];
@@ -310,7 +310,7 @@ let controllers = (function() {
                         $('#totalPrice').html('$' + totalPrice);
 
                         $('.btn-remove-item').on('click', function(ev) {
-                            var $listElement = $(ev.target).parents('tr'),
+                            var $listElement = $(ev.target).parents('.tr'),
                                 itemId = $listElement.attr('data-id');
 
                             dataService.removeFromCart(itemId)

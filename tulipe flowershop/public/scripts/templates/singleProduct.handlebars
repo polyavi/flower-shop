@@ -1,18 +1,27 @@
-
 <div id="{{this.id}}" class="items">
-        <div class="item-container">
-            <div>
-                <ul class="item-properties">
-                    <li><h3>{{this.name}}</h3></li>
-                    <li>${{this.price}}</li>
-                </ul>
-            <img src="{{this.imgs.[0]}}" alt="">
-                <ul class="item-properties">
-
-                    <li><span>Category:</span> {{this.category}}</li>
-                    <li><span>Summary:</span> {{this.summary}}</li>
-                      <button id="btn-add-item" class="btn btn-default">Add to cart</button>
-                </ul>
+    <div class="item-container flex">
+        <div class="main-info flex row">
+            <div class="main-img">
+                <img class="border" src="{{this.imgs.[0]}}" alt="">
+            </div>
+            <div class="item-info flex">
+                <div class="title-sect ">
+                    <span class="hot">HOT</span>
+                    <span class="new">NEW</span>
+                    <h3 class="no-margin upperc">{{this.name}}</h3>
+                </div>
+                <hr class="no-margin">
+                <div class="info-sect">
+                    <span class="price">${{this.price}}</span>
+                    <span class="summery">{{this.summary}}</span>
+                </div>
+                <button class="btn text-center color-5b9ca3 inline text-ffffff font-bernh" id="btn-add-item">Add to cart</button>
             </div>
         </div>
+        <div class="other-imgs flex row">
+            {{#each this.imgs}}
+                <img class="border" src="{{this}}" alt="">
+            {{/each}}
+        </div>
     </div>
+</div>

@@ -8,37 +8,27 @@ nav div.logo {
 }
 
 ul.menu li {
-    display: inline-block;
-    text-align: center;
     padding: 15px 20px;
 }
-ul.menu li a{
-  font-size: 2em;
+
+ul.menu li a {
+    font-size: 2em;
 }
-nav ul.menu {
-    float: right;
+
+nav {
+    height: 100px;
+    box-shadow: 0 5px 20px #888888;
 }
-nav{
-  height: 100px;
-  box-shadow: 0 5px 20px #888888;
+
+
+ul.menu li:hover a {
+    color: #a0608b;
 }
-ul.menu li a:hover, ul.menu .active{
-font-size: 1.5em;
-padding: 0 20px;
+
+ul.menu .active a {
+    color: #5b9ca3;
 }
-ul.menu li:hover a{
-  color: #a0608b;
-}
-ul.menu .active a
-{
-  color: #5b9ca3;
-}
+
 .hidden-when-not-logged-in {
     display: none;
-}
-.logged-in .hidden-when-not-logged-in {
-    display: initial;
-}
- .visible-when-not-logged-in {
-    display: none ;
 }

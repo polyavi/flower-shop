@@ -1,24 +1,16 @@
 .section{
-  display: flex;
-  flex-direction: row;
   justify-content: flex-start;;
   margin: 20px 50px;
 }
 .wrapper{
   padding: 10px 30px;
 }
-#store{
-  width: 100%;
-}
+
 .sorting{
-  display: flex;
-    justify-content: space-between;
     padding: 0 5%;
     margin-bottom: 40px;
 }
 .sorting span{
-  font-size: 24px;
-  font-family: BERNHC;
   font-style: italic;
 }
 .product-short{
@@ -27,22 +19,10 @@
 .ctgr, .unctgr{
   padding-left: 20px
 }
-.ctgr h4, .ctgr h5{
-  color: #696969;
-  font-size: 30px;
-  font-weight: normal;
-  margin: 0;
-}
-.categories h3{
-  color: #285564;
-  font-size: 48px;
-  margin: 0;
-}
+
 input[type=search] {
     box-sizing: border-box;
     border: 1px solid #c9c9c9;
-    font-size: 18px;
-    font-family: BERNHC;
     background-color: #ffffff;
     background-image: url('../images/search-icon.png');
     padding: 0 10px;
@@ -61,20 +41,20 @@ input[type=search] {
 .styled-select select {
    background: transparent;
    border: none;
-   font-size: 14px;
+   font-size: 1em;
    height: 29px;
    padding: 5px;
    width: 268px;
 }
 
-.styled-select.slate {
+.slate {
    background: url(../images/arrow-gray.png) no-repeat right center;
    height: 34px;
    width: 240px;
 }
 
-.styled-select.slate select {
-   font-size: 18px;
+.slate select {
+   font-size: 1em;
    font-family: BERNHC;
    height: 34px;
    width: 268px;

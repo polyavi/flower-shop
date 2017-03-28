@@ -6,40 +6,42 @@
     <title>tulipe flower shop</title>
     <link rel="stylesheet" href="css/banners.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/highlights.css">
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/singleProduct.css">
     <link rel="stylesheet" href="css/font-awesome.css">
 </head>
 
-<body>
+<body class="no-margin text-696969 font-bernh">
     <header>
-        <div class="banner">
+        <div class="banner flex row no-margin space-btwn">
             <a href="#"><img class="small" src="../images/spring-flowers.png" alt="tulipes">
-                <h3 class="left">SPRING FLOWERS</h3></a>
+                <h3 class="left no-margin text-696969">SPRING FLOWERS</h3></a>
             <a href="#"><img class="big right" src="../images/roses.png" alt="roses">
-                <h3 class="right text">Delicate bouquets with ROSES</h3></a>
+                <h3 class="right text text-696969">Delicate bouquets with ROSES</h3></a>
         </div>
         <nav>
             <div class="logo">
                 <img src="../images/tulipe-logo.png" alt="logo">
             </div>
-            <ul class="menu">
-                <li class="active">
+            <ul class="menu right">
+                <li class="active text-center inline">
                     <a href="#/home">HOME</a>
                 </li>
-                <li>
+                <li class="text-center inline">
                     <a href="#/products">SHOP</a>
                 </li>
-                <li class="visible-when-not-logged-in">
+                <li class="visible-when-not-logged-in text-center inline">
                     <a href="#/login">Login</a>
                 </li>
-                <li class="hidden-when-not-logged-in" style="display:none">
+                <li class="hidden-when-not-logged-in text-center" style="display:none">
                     <a class="btn-nav-logout" href="#/logout">Logout</a>
                 </li>
-                <li><a href="#/shoppingcart" id="cart" class="hidden-when-not-logged-in"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                <li class="text-center inline"><a href="#/shoppingcart" id="cart" class="hidden-when-not-logged-in"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
             </ul>
         </nav>
 
@@ -47,9 +49,11 @@
 
     <div id="main" class="container-fluid">
     </div>
-    <hr id="foot">
-    <div class="footer-content">
-        <ul class="footer-colomns">
+    <hr>
+    <footer class="flex row em1-5 space-btwn">
+
+    <div class="flex row">
+        <ul class="flex row">
             <li>
                 <ul>
                     <li>Contacts</li>
@@ -79,28 +83,11 @@
                 </ul>
             </li>
         </ul>
-
-
     </div>
-    <div class="sotial right">
         <div class="logo">
             <img src="../images/tulipe-logo.png" alt="">
         </div>
-        <ul>
-            <li>
-                <a href="#"><img src="" alt=""><i></i></a>
-            </li>
-            <li>
-                <a href="#"><img src="" alt=""><i></i></a>
-            </li>
-            <li>
-                <a href="#"><img src="" alt=""><i></i></a>
-            </li>
-            <li>
-                <a href="#"><img src="" alt=""><i></i></a>
-            </li>
-        </ul>
-    </div>
+  </footer>
 </body>
 <script src="./node_modules/jquery/dist/jquery.js"></script>
 <script src="./node_modules/handlebars/dist/handlebars.js"></script>
