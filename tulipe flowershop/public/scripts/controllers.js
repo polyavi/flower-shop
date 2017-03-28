@@ -28,13 +28,11 @@ let controllers = (function() {
             items.sort(function(a, b) {
                 return (a.orders < b.orders) ? 1 : ((b.orders < a.orders) ? -1 : 0);
             });
-            console.log(items);
         }
         if (sortBy === 'price') {
             items.sort(function(a, b) {
                 return (a.price > b.price) ? 1 : ((b.price > a.price) ? -1 : 0);
             });
-            console.log(items);
         }
         if (sortBy === 'new') {
             items.sort(function(a, b) {
@@ -82,6 +80,8 @@ let controllers = (function() {
                 let templateFunc = handlebars.compile(templateHtml);
                 let html = templateFunc(items);
                 $("#main").html(html);
+                onlyProducts('hot', "#hot");
+                onlyProducts('new', "#new");
             });
         highlights();
     }
@@ -139,6 +139,25 @@ let controllers = (function() {
     function newProducts() {
         products('new');
     }
+
+    function onlyProducts(sortBy, holder){
+          var items = [];
+          dataService.products()
+              .then((productsResponse) => {
+
+                  for (let i in productsResponse.result) {
+                      items = items.concat(productsResponse.result[i]);
+                  }
+                  sort(items, sortBy);
+                  items.splice(4, items.length-4);
+                  return templates.get("products");
+              })
+              .then((templateHtml) => {
+                  let templateFunc = handlebars.compile(templateHtml);
+                  let html = templateFunc(items);
+                  $(holder).html(html);
+              });
+      }
 
     function bouquetsCategory(params, sortBy) {
         var items = [],

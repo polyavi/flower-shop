@@ -1,0 +1,13 @@
+{{#each this}}
+    <div class="product-short border flex">
+        <div class="tags">
+          <span class="hot color-edb4b6">HOT</span>
+          <span class="new color-285564">NEW</span>
+        </div>
+        <img class="margin-10-20" src="{{this.imgs.[0]}}" alt="">
+        <div class="info em1-5 text-center">
+            <a href="#/products/{{this.category}}/{{this.id}}"><h4 class="product-name no-margin upperc">{{this.name}}</h4></a>
+            <span class="price">${{this.price}}</span>
+        </div>
+    </div>
+{{/each}}
