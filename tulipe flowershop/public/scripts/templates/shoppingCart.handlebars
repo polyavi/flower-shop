@@ -9,9 +9,9 @@
                 <thead>
                     <tr>
                         <th></th>
-                        <th>Product</th>
-                        <th>Name</th>
-                        <th>Price</th>
+                        <th><span class="em1-5">Product</span></th>
+                        <th><span class="em1-5">Name</span></th>
+                        <th><span class="em1-5">Price</span></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -59,7 +59,7 @@
 
         <form class="#btn-add-details">
 
-            <a class="btn color-5b9ca3 text-ffffff font-bernh" href="#/addDeliveryDetails">Proceed To Checkout</a>
+          {{#if this.length}}  <a class="btn color-5b9ca3 text-ffffff font-bernh" href="#/addDeliveryDetails">Proceed To Checkout</a>        {{/if}}
         </form>
     </div>
 </section>
