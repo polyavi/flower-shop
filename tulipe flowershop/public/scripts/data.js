@@ -60,12 +60,11 @@ let dataService = {
         return Promise.resolve()
             .then(() => {
                 let cart = JSON.parse(localStorage.getItem("cart"));
-                console.log(cart.length);
                 if(cart.length === 1)   localStorage.removeItem("cart");
                 else{
                 for (i in cart) {
                     if (cart[i].id === Number(id)) {
-                        cart = cart.splice(i, 1);
+                        cart.splice(i, 1);
                     }
                 }
                 localStorage.setItem("cart", JSON.stringify(cart));

@@ -38,7 +38,6 @@ let controllers = (function() {
             items.sort(function(a, b) {
                 return (a.addDate < b.addDate) ? 1 : ((b.addDate < a.addDate) ? -1 : 0);
             });
-            console.log(items);
         }
         return items;
     }
@@ -173,7 +172,6 @@ let controllers = (function() {
                     }
                 }
                 sort(items, sortBy);
-                console.log(items);
                 return templates.get('productsList');
             })
             .then((templateHtml) => {
@@ -329,9 +327,8 @@ let controllers = (function() {
                         $('#totalPrice').html('$' + totalPrice);
 
                         $('.btn-remove-item').on('click', function(ev) {
-                            var $listElement = $(ev.target).parents('.tr'),
+                            var $listElement = $(ev.target).parents('tr'),
                                 itemId = $listElement.attr('data-id');
-
                             dataService.removeFromCart(itemId)
                                 .then((itemId) => {
                                     $listElement.remove();
@@ -361,7 +358,6 @@ let controllers = (function() {
                 var compiledTemplate = Handlebars.compile(html);
                 $('#main').html(compiledTemplate);
                 localStorage.removeItem("cart");
-                console.log(localStorage);
             });
     }
 
